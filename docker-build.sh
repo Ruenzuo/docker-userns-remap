@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "Hi!"
+docker build -t usernsremap:latest .
