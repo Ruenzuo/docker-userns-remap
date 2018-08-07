@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker run -it -v $PWD/workspace:/home/ruenzuo/workspace usernsremap:latest sh
+docker run -t -d -v $PWD/workspace:/home/ruenzuo/workspace -w /home/ruenzuo/workspace usernsremap:latest touch bad.txt
